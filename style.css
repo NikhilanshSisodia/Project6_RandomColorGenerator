@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Playwrite DE Grund", cursive;
+    background-color: #ddd;
+}
+
+.heading{
+    font-size: 52px;
+    color: #444;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btnContainer{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.colorContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.color{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    align-items: center;
+    align-content: center;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+
+.colorText{
+    font-size: 36px;
+    color: #fff;
+}
+
+.btn{
+    color: #444;
+    background-color: #ddd;
+    border: 2px solid #444;
+    border-radius: 10px;
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 21px;
+    font-weight: 500;
+    padding: 5px 20px;
+    transition: 0.2s ease-in ;
+}
+
+.btn:hover{
+    color: #ffffff;
+    background-color: #444;
+    border: 2px solid #444;
+    cursor: pointer;
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 870px) {
+    .heading{
+        font-size: 36px;
+    }
+    .color{
+
+        width: 400px;
+        height: 250px;
+
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .heading{
+        font-size: 28px;
+    }
+    .color{
+
+        width: 300px;
+        height: 200px;
+
+    }
+    .colorText{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .heading{
+        font-size: 24px;
+    }
+    .color{
+
+        width: 250px;
+        height: 200px;
+
+    }
+    .colorText{
+        font-size: 18px;
+    }
+    .btnContainer{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .heading{
+        font-size: 18px;
+    }
+    .color{
+
+        width: 250px;
+        height: 200px;
+
+    }
+    .colorText{
+        font-size: 16px;
+    }
+    .btn{
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .heading{
+        font-size: 14px;
+    }
+    .color{
+
+        width: 200px;
+        height: 200px;
+
+    }
+    .colorText{
+        font-size: 18px;
+    }
+    .btn{
+        width: 200px;
+    }
+}
+
